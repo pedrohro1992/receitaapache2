@@ -1,4 +1,4 @@
-package 'http'
+package 'htttp'
 
 file '/var/www/html/index.html' do 
 	content '<h1>Hello, Word'
