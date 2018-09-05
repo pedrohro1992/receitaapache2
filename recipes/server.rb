@@ -1,9 +1,9 @@
 package 'httpd'
 
 file '/var/www/html/index.html' do 
-	content '<h1>Hello, Word'
+	content '<h1>Hello, Word!</h1>'
 end 
 
-service 'http' do 
+service 'httpd' do 
 	action [ :enable, :start ]
 end 
